@@ -30,7 +30,8 @@ def grabar_datos():
 
     print("Todos los nombres y apellidos con zip= ", list(zip(nombres, ap_pats, ap_mats)))
 
-    with open('/workspace/ej-Archivos/assignments/00Archivos/data/personas.csv', 'w') as f:  
+    with open('/workspace/ej-Archivos/assignments/00Archivos/data/personas.csv', 'w') as f:
+        f.write("NOMBRE,APELLIDO PATERNO,APELLIDO MATERNO\n")  
         for nombre, ap_pat, ap_mat in zip(nombres, ap_pats, ap_mats):
             print("Grabando ..." + nombre+"," + ap_pat + "," + ap_mat)
             f.write(nombre+"," + ap_pat + "," + ap_mat + "\n")
