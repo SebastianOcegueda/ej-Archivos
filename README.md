@@ -1,4 +1,4 @@
-## Ejercicio - Plantilla para prácticas
+## Ejercicio - Plantilla para prácticas con Archivos
 
 - Genera un repositorio en tu Contexto Personal a partir de este repositorio plantilla, dando clic en el botón ```Use this template```.
 
