@@ -39,4 +39,5 @@ def grabar_datos():
 def main():
     grabar_datos()
 
-main()
+if __name__=='__main__':
+    main()
